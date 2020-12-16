@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".video.VideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoInformatica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="TRFcIxhuHgM"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showYouTubeButton="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#000"
+                        android:text="Video di presentazione"
+                        android:textSize="18sp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="12dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:paddingRight="8dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_school_blu_24dp" />
+
+                            <TextView
+                                android:text="Istituto Tecnico Industriale"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp">
+
+                            <ImageView
+                                android:paddingRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_indirizzo_blu_24dp" />
+
+                            <TextView
+                                android:text="Informatica e Telecomunicazioni"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoMeccanica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="66S1v89gu_I"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showYouTubeButton="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#000"
+                        android:text="Video di presentazione"
+                        android:textSize="18sp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="12dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:paddingRight="8dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_school_blu_24dp" />
+
+                            <TextView
+                                android:text="Istituto Tecnico Industriale"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp">
+
+                            <ImageView
+                                android:paddingRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_indirizzo_blu_24dp" />
+
+                            <TextView
+                                android:text="Meccanica e Meccatronica"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoOperatoreElettrico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="rAhScqnuZQg"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showYouTubeButton="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#000"
+                        android:text="Video di presentazione"
+                        android:textSize="18sp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="12dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:paddingRight="8dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_school_yellow_24dp" />
+
+                            <TextView
+                                android:text="Centro di Formazione Professionale"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp">
+
+                            <ImageView
+                                android:paddingRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_indirizzo_yellow_24dp" />
+
+                            <TextView
+                                android:text="Operatore Elettrico"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/videoOperatoreMeccanico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="PRuVWeulbpI"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    app:showYouTubeButton="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:textColor="#000"
+                            android:text="Video di presentazione"
+                            android:textSize="18sp"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:paddingTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingBottom="12dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:paddingRight="8dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_school_yellow_24dp" />
+
+                                <TextView
+                                    android:text="Centro di Formazione Professionale"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="16sp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingBottom="10dp">
+
+                                <ImageView
+                                    android:paddingRight="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_indirizzo_yellow_24dp" />
+
+                                <TextView
+                                    android:text="Operatore Veicoli a Motore"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="16sp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/videoMyFuture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="XV_gchvIEMQ"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    app:showYouTubeButton="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:textColor="#000"
+                            android:text="Video orientativo"
+                            android:textSize="18sp"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:paddingTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingBottom="12dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:paddingRight="8dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_school_grey_24dp" />
+
+                                <TextView
+                                    android:text="Polo Don Orione Fano"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="16sp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingBottom="10dp">
+
+                                <ImageView
+                                    android:paddingRight="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_info_outline_black_24dp" />
+
+                                <TextView
+                                    android:text="Progetto My Future"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="16sp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
